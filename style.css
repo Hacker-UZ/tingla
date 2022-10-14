@@ -1,0 +1,629 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url(fonts/SFPRODISPLAYBOLD.OTF);
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+}
+
+.site {
+    max-width: 1440px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-bottom: 62px;
+}
+
+/* header start */
+
+header {
+    width: 865px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-bottom: 154px;
+}
+
+.logo {
+    width: 130px;
+    height: 39px;
+    position: relative;
+}
+
+.logo::after {
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    content: "";
+    left: 540px;
+    top: -60px;
+    background: url(img/shape-romb.png);
+}
+
+/* header end */
+
+
+
+
+/* biz-bilan block start */
+.biz-bilan {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.biz-inner {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.biz-bilan-title {
+    height: 190px;
+    max-width: 650px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 95px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-left: 165px;
+    position: relative;
+    margin-bottom: 24px;
+
+}
+
+.biz-bilan-title::after {
+    content: "";
+    position: absolute;
+    width: 514px;
+    height: 729px;
+    top: -168px;
+    right: -521px;
+    background-image: url(img/smartphone-img/telefon-img1.png);
+}
+
+.biz-bilan-title::before {
+    content: "";
+    position: absolute;
+    width: 492px;
+    height: 492px;
+    top: -21px;
+    right: -492px;
+    background: #0F0F54;
+    opacity: 0.15;
+    filter: blur(142px);
+}
+
+.biz-bilan-text {
+    position: relative;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 657px;
+    height: 66px;
+    line-height: 36px;
+    color: #000000;
+    margin-left: 165px;
+    margin-bottom: 64px;
+}
+
+.biz-bilan-text::after {
+    position: absolute;
+    content: "";
+    width: 388px;
+    height: 388px;
+    left: -63px;
+    bottom: 0;
+    background: #FCBD2C;
+    opacity: 0.2;
+    filter: blur(142px);
+
+}
+
+.download {
+    position: relative;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    padding: 18px 40px;
+    width: 181px;
+    text-decoration: none;
+    height: 60px;
+    background: #0F0F54;
+    border-radius: 8px;
+    margin-left: 165px;
+    cursor: pointer;
+    margin-bottom: 294px;
+}
+
+.download::before {
+    position: absolute;
+    content: "";
+    width: 98px;
+    height: 98px;
+    background-image: url(img/shape-circle.png);
+    top: 105px;
+    left: -87px;
+}
+
+.download::after {
+    position: absolute;
+    content: "";
+    background-image: url(img/Yulduzcha.png);
+    width: 88px;
+    height: 88px;
+    right: -973px;
+    top: 158px;
+}
+
+/* biz-bilan block end */
+
+
+
+/* Video block start */
+.video-block {
+    position: relative;
+    margin: 0 auto;
+    width: 1110px;
+    height: 500px;
+    background-image: url(img/loiha-haqida.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-color: #000000;
+    border-radius: 20px;
+    margin-bottom: 366px;
+}
+
+.video-block::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.video-block::before {
+    position: absolute;
+    content: "";
+    width: 56.88px;
+    height: 56.88px;
+    top: 50%;
+    left: 50%;
+    background-image: url(img/pauza.png);
+    z-index: 4;
+    cursor: pointer;
+}
+
+/* video block end */
+
+
+
+
+/* loyiha haqida start */
+.loyiha-haqida {
+    position: relative;
+    width: 1110px;
+    height: 480px;
+    margin: 0 auto;
+    background: #0F0F54;
+    border-radius: 20px;
+    padding: 126px 490px 126px 80px;
+}
+
+.loyiha-haqida::before {
+    content: "";
+    position: absolute;
+    width: 148.28px;
+    height: 148.28px;
+    background: url(img/shape-romb.png);
+    top: -296px;
+    left: 357px;
+}
+
+.loyiha-haqida::after {
+    content: '';
+    position: absolute;
+    width: 495px;
+    height: 773px;
+    background-image: url(img/smartphone-img/telefon-img2.png);
+    right: 27px;
+    top: -206px;
+    bottom: -87px;
+}
+
+.loyiha-inner {
+    width: 540px;
+    height: 228px;
+}
+
+.loyiha-haqida-title {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.loyiha-haqida-text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+/* loyiha haqida end */
+
+
+
+/* Audio kitob start */
+.audio-kitob {
+    width: 100%;
+    height: 388px;
+    display: flex;
+    justify-content: end;
+    margin-top: 302px;
+    position: relative;
+    margin-bottom: 468px;
+}
+
+.audio-kitob::before {
+    content: '';
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-image: url(img/Circle-star.png);
+    left: 160px;
+    bottom: -200px;
+}
+
+.audio-kitob::after {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 571px;
+    background-image: url(img/smartphone-img/telefon-img3.png);
+    left: 125px;
+    top: -76px;
+}
+
+.audio-inner {
+    width: 616px;
+    height: 388px;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 30px;
+    position: relative;
+}
+
+.audio-inner::before {
+    content: '';
+    position: absolute;
+    width: 388px;
+    height: 388px;
+    background: #FCBD2C;
+    opacity: 0.2;
+    filter: blur(142px);
+    top: 0;
+    left: 0;
+}
+
+.audio-inner::after {
+    content: '';
+    position: absolute;
+    width: 492px;
+    height: 492px;
+    background: #0F0F54;
+    opacity: 0.15;
+    filter: blur(142px);
+    top: -8;
+    left: 99px;
+    right: 25px;
+}
+
+.audio-kitob-title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.audio-kitob-text {
+    width: 540px;
+    height: 171px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+}
+
+/* audio kitob end */
+
+/* tolov start */
+
+.tolov-tizimi {
+    position: relative;
+    width: 1110px;
+    height: 480px;
+    margin: 0 auto;
+    background: #F9E0C7;
+    border-radius: 20px;
+    padding: 126px 490px 126px 80px;
+}
+
+.tolov-tizimi::after {
+    content: '';
+    position: absolute;
+    width: 495px;
+    height: 773px;
+    background-image: url(img/smartphone-img/telefon-img4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 27px;
+    top: -206px;
+    bottom: -87px;
+}
+
+.tolov-tizimi::before {
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    background-image: url(img/Yulduzcha.png);
+    bottom: -135px;
+    right: 34px;
+}
+
+.tolovt-inner {
+    width: 540px;
+    height: 228px;
+}
+
+.tolov-tizimi-title {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.tolov-tizimi-text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+}
+
+/* tolov end */
+
+
+
+/* Ktiob start */
+.kitob-oqish {
+    width: 1110px;
+    position: relative;
+    height: 480px;
+    background: #F8F8F8;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 244px;
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.kitob-oqish::after {
+    content: '';
+    position: absolute;
+    width: 394px;
+    height: 480px;
+    top: 0px;
+    bottom: 0px;
+    left: 61px;
+    background-image: url(img/smartphone-img/telefon-img5.png);
+    background-repeat: no-repeat;
+    right: 655px;
+    z-index: 99;
+}
+
+.kitob-oqish::before {
+    content: "";
+    position: absolute;
+    width: 148px;
+    height: 148px;
+    background-image: url(img/shape-romb.png);
+    bottom: -76.68px;
+    left: -120px;
+    rotate: 50deg;
+}
+
+.kitob-inner {
+    width: 541px;
+    height: 210px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 50px;
+}
+
+.kitob-title {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.store {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.playmarket {
+    width: 162.27px;
+    height: 47.98px;
+    background-image: url(img/Google-Play.png);
+    background-repeat: no-repeat;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.app-store {
+    width: 163px;
+    height: 47.98px;
+    background-image: url(img/App-Store.png);
+    background-repeat: no-repeat;
+}
+
+/* kitob end */
+
+/* footer start */
+.footer {
+    display: block;
+    width: 942px;
+    height: 104px;
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    margin-left: 165px;
+}
+
+.logotip {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.bhh {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.footer-menu {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 16px;
+}
+
+.menu {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.about {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.tel {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.tel div {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 4px;
+}
+
+.tel div p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    mix-blend-mode: normal;
+}
+
+.tel div a {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.telicon {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.telicon img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* footer end */
